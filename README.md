@@ -172,7 +172,7 @@ Ad-hoc processing for any table
 It's also possible to "squeeze" tables manually without registering, skipping any time and bloat
 checks.
 
-Function signature: `squeeze.squeeze_table(tabchema name, tabname name, clustering_index name, rel_tablespace name, ind_tablespaces name[])`
+Function signature: `squeeze.squeeze_table(tabschema name, tabname name, clustering_index name, rel_tablespace name, ind_tablespaces name[])`
 
 Sample execution:
 
